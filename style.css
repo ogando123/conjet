@@ -1,0 +1,80 @@
+body{
+font-family: georgia;
+color: #333;
+font-size: 1.2rem;
+line-height:1.2em;
+margin: 0;
+}
+h1 {
+font-size: 2rem;
+line-height: 1.3em;
+}
+
+p{
+margin-bottom: 1.5em;
+}
+
+.container {
+width: 85%;
+max-width: 850px;
+margin: 0 auto;
+}
+
+.header {
+background:#022f5f;
+color: white;
+padding: 1rem 0;
+flex: left;
+}
+
+.header a{
+color: white;
+text-decoration: none;
+
+}
+
+.logo-nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+letter-spacing: 10px;
+font-size: 1.2rem;
+}
+.navigation ul {
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+.navigation ul li {
+display: inline-block;
+}
+
+.navigation ul li a {
+display: block;
+padding: 0.2rem 0.5em;
+transition: all 0.4s linear;
+}
+
+.navigation ul li a:hover {
+background: #12c5eb;
+
+}
+
+.main {
+margin-top: 0rem;
+}
+.footer {
+background: black;
+padding: 0.1rem 0;
+text-align: left;
+color: grey;
+}
+
+
+
+
+
